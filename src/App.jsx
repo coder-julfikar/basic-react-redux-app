@@ -6,6 +6,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CakeContainer from './components/CakeContainer'
 import HooksCakeContainer from './components/HooksCakeContainer'
+import IceContainer from './components/IceContainer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,8 +14,9 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <HooksCakeContainer />
+        {/* <HooksCakeContainer /> */}
         <CakeContainer />
+        <IceContainer />
       </div>
     </Provider>
   )

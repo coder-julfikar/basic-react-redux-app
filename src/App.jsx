@@ -9,6 +9,7 @@ import HooksCakeContainer from './components/HooksCakeContainer'
 import IceContainer from './components/IceContainer'
 import NCakeContainer from './components/NCakeContainer'
 import ItemContainer from './components/ItemContainer'
+import UserContainer from './components/UserContainer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,11 +18,12 @@ function App() {
     <Provider store={store}>
       <div className="App">
         {/* <HooksCakeContainer /> */}
-        <CakeContainer />
+        {/* <CakeContainer />
         <IceContainer />
         <NCakeContainer />
         <ItemContainer cake />
-        <ItemContainer />
+        <ItemContainer /> */}
+        <UserContainer />
       </div>
     </Provider>
   )
